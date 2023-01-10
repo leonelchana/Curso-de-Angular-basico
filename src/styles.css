@@ -4,10 +4,10 @@
   }
   
   html, body {
-    width: 50%;
-      height: 200px;
-      background-color: #59cccc;
-    /* background: white; */
+    width: 70%;
+      height: 900px;
+      background-color: #204d4d;
+   text-align: center;
     margin: 20px;
     color: #3e4144;
     -webkit-font-smoothing: antialiased;
@@ -41,3 +41,36 @@
   .p-1 {
     padding: 1px;
   }
+  .content{
+    background: rgb(150, 191, 193);
+    align-items: center;
+    
+    
+  }
+.row{
+  display: flex;
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+.col{
+  flex-grow: 1;
+
+  margin: 20px;
+  /* background: #b4c6d8;
+   */text-align: center;
+
+}
+h3{
+  font-size: xx-large;
+  color: #083a3a;
+}
+input{
+  width: 200px;
+  height: 20px;
+  background: #ffffff;
+  display: block;
+  position: relative;
+ 
+  left: 20px;
+  margin: 15px;
+}
